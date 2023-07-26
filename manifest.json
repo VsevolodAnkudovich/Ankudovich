@@ -1,6 +1,6 @@
 {
-"name": "CHANGAN",
-"short_name": "CHANGAN",
+"name": "BODYMANIA",
+"short_name": "Body",
 "theme_color": "#ff0000",
 "background_color": "#ffffff",
 "display": "standalone",
@@ -9,27 +9,27 @@
 "prefer_related_applications": false,
 "icons":[
 {
-"src": "app-icon-96-96.png",
+"src": "иконка96.png",
 "sizes": "96x96",
 "type": "image/png"
 },
 {
-"src": "app-icon-144-144.png",
+"src": "иконка144.png",
 "sizes": "144x144",
 "type": "image/png"
 },
 {
-"src": "app-icon-192-192.png",
+"src": "иконка192.png",
 "sizes": "192x192",
 "type": "image/png"
 },
 {
-"src": "app-icon-256-256.png",
+"src": "иконка256.png",
 "sizes": "256x256",
 "type": "image/png"
 },
 {
-"src": "app-icon-512-512.png",
+"src": "иконка512.png",
 "sizes": "512x512",
 "type": "image/png",
 "purpose": "maskable"
