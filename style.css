@@ -1,90 +1,53 @@
-/* Общие стили */
-/*
 body {
-  background-image: url('photjpg.jpg');
-  background-size: cover;
-  background-position: center;
-  font-size: 18px; 
-  font-family: Arial, sans-serif; 
-
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
-h1, h2 {
-  color: #333; 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
-  line-height: 1.5; 
-}
-*/
-
-/* Стили для таблицы */
-table {
-    width:100%;
-    border-collapse : collapse ;
-    margin-bottom :20px ;
+/* Заголовок страницы */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-th, td{
-    padding :10px ;
-    text-align:left ;  
-     border-bottom:solid #ddd ;
-   }
-
-th{
-   background-color:#f9f9f9 ; /* Цвет фона заголовков */
+/* Стильный блок */
+.section {
+  background-color: #e3e3e3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-
-.car-image img{   
-   max-width :100% ;     
-   height:auto ;      
-}   
-
-/* Стили для меню навигации */    
-nav{
-      background-color:#333;/* Цвет фона меню*/
+/* Стили для кнопки */
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
 }
-nav ul{
-       list-style-type:none;
-       margin :0;
-       padding :0;}
-nav ul li {display:inline-block;}  
 
-nav ul li a { display:block;color:#fff;text-decoration:none;padding:
-             }
-             
- nav ul li a:hover{background-color:#555;}
+.button:hover {
+  background-color: #2980b9;
+}
 
-/* Стили для контактной формы */
+/* Стили для ссылки */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
 
-form{margin-top :20px;}                 
-label{display:block;margin-bottom :
-         input[type="text"], input[type="email"],
-          textarea {
-
-            width ::100% ;
-
-            padding::10px;
-
-            margin-bottom::10px ;
-
-            border:1px solid #ccc ;
-
-            border-radius::4px ;  
-          }
-
-input[type="submit"] {
-
-              background-color :#333; 
-
-              color:#fff;
-
-              border:none;
-
-              padding:10px 20px ; 
-
-             cursor:pointer;}
-
-input[type="submit"]:hover{background-color :
-                              #555;}
+a:hover {
+  text-decoration: underline;
+}
